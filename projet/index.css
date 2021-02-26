@@ -1,0 +1,104 @@
+.D{ background-image: url( ../projet/where.jpg); width: 5cm;
+
+}
+
+.B{ font-size: 3cm; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-style: italic; color: darkorange;
+
+
+}
+
+.C{font-size: 1cm; font-family: Georgia, 'Times New Roman', Times, serif;font-style: italic; color: darkorange;
+
+
+}
+
+.A{ background-image:url(../projet/now.jpg)  ;
+
+
+}
+
+.E{ font-size: 2cm; font-family: fantasy;font-style: italic; color: darkorange;
+
+
+}
+
+.F{ border-radius: 3mm; border-width: 100mm;
+
+
+}
+
+
+#rechercherhistoire{ padding: 10px;
+border: 3px solid rgb(57, 9, 189);
+border-radius: 100px;
+outline: none;
+padding-left: 50px;
+background: url("../projet/search\ icon.png") left no-repeat
+}
+
+
+
+
+     
+    nav ul {
+    background-color:#64abfb;
+    padding:0;
+    margin:0;
+    }
+     
+    nav ul li {
+    list-style: none;
+    line-height:44px;
+    float:left;
+    background-color:#64abfb;
+    }
+     
+    nav ul li a {
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+     
+    li a:hover {
+    border-bottom:3px #FFF solid;
+    }
+    nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+     
+    nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index:99999;
+    display:list-item !important;
+    position:absolute;
+    margin-top:5px;
+    margin-left:-10px;
+    }
+     
+    nav ul li:hover ul li {
+    float:none;
+    }
+     
+    
+
+#titre{padding: 10px;
+    border: 3px solid rgb(57, 9, 189);
+    outline: none;
+    
+}
+
+#description{padding: 10px;
+    border: 3px solid rgb(57, 9, 189);
+    outline: none;
+    
+}
+
+
+#motscles{padding: 10px;
+    border: 3px solid rgb(57, 9, 189);
+    outline: none;
+    }
+
+    #votrehistoire{padding: 10px;
+        border: 3px solid rgb(57, 9, 189);
+        ;
+        outline: none;
+        } 

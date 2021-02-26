@@ -1,0 +1,81 @@
+body{ background-color:turquoise}
+
+#rechercherhistoire{ padding: 10px;
+border: 3px solid rgb(57, 9, 189);
+border-radius: 100px;
+outline: none;
+padding-left: 50px;
+background: url("../projet/search\ icon.png") left no-repeat
+}
+
+.moi{ font-family: fantasy;
+color: cornflowerblue;
+font-size: 60px;}
+
+
+
+     
+    nav ul {
+    background-color:#64abfb;
+    padding:0;
+    margin:0;
+    }
+     
+    nav ul li {
+    list-style: none;
+    line-height:44px;
+    float:left;
+    background-color:#64abfb;
+    }
+     
+    nav ul li a {
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+     
+    li a:hover {
+    border-bottom:3px #FFF solid;
+    }
+    nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+     
+    nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index:99999;
+    display:list-item !important;
+    position:absolute;
+    margin-top:5px;
+    margin-left:-10px;
+    }
+     
+    nav ul li:hover ul li {
+    float:none;
+    }
+     
+    
+
+#titre{padding: 10px;
+    border: 3px solid rgb(57, 9, 189);
+    outline: none;
+    padding-left: 150px
+}
+
+#description{padding: 10px;
+    border: 3px solid rgb(57, 9, 189);
+    ;height: 10cm;
+    outline: none;
+    padding-left: 150px
+}
+
+
+#motscles{padding: 10px;
+    border: 3px solid rgb(57, 9, 189);height: 5cm
+;
+    outline: none;
+    padding-left: 50px}
+
+    #votrehistoire{padding: 10px;
+        border: 3px solid rgb(57, 9, 189);
+        height:30cm ;
+        outline: none;
+        padding-left: 100px} 
